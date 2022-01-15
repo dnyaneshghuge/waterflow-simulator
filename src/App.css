@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.section .gridContainer {
+  min-height: 500px;
+  border: 1px solid #000;
+  margin-top: 10%;
+  text-align: left;
+}
+
+.section .gridContainer .slider {
+  margin-top: 30px;  
+}
+
+.white-box-container  {
+  display: inline-grid;  
+}
+
+.white-box-container .box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #000;
+}
+
+.white-box-container .blue-box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #000;
+  background-color: lightblue;
+}
+
+.black-box-container {
+  display: inline-grid;  
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.black-box-container .box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #000;
+}
+
+.black-box{
+  height: 50px;
+  width: 50px;
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+}
+
+.selectedPoint {
+  background-color: blue !important;
+  border: 1px solid #000;
+}
+
+.unSelectedPoint {
+  background-color: #fff !important;
+  visibility: hidden;
+}
+
+.result-box{
+  height: 50px;
+  width: 50px;
+  /* border: 1px solid #000; */
+}
